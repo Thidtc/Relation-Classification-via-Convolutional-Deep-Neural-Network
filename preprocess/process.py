@@ -31,7 +31,7 @@ def process_question(question):
   return question, e1_begin, e1_end, e2_begin, e2_end
 
 
-def process_file(in_filename="/home/wdl/datasets/classification/relation_classification/SemEval2010_task8_all_data/SemEval2010_task8_training/TRAIN_FILE.TXT",\
+def process_file(in_filename="./data/TRAIN_FILE.TXT",\
   out_filename="../data/train.txt"):
   max_len = 0
   max_distance = 0
